@@ -55,10 +55,13 @@ Components come in two types, Class components and Function components, in this 
 
 
 ```
-
-Components are like functions that return HTML elements.
-Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
-Components come in two types, Class components and Function components, in this tutorial we will concentrate on Class components.
+JSX is an extension of the JavaScript language based on ES6, and is translated into regular JavaScript at runtime.
+JSX is an XML/HTML-like syntax used by React that extends ECMAScript so that XML/HTML-like text can co-exist with JavaScript/React code.
+By using JSX you can write HTML-like structures in the same file as you write JavaScript code.
+It is faster than normal JavaScript as it performs optimizations while translating to regular JavaScript.
+It makes it easier for us to create templates.
+Instead of separating the markup and logic in separated files, React uses components for this purpose. We will learn about components in detail in further articles.
+JSX is basically a syntax extension of regular JavaScript and is used to create React elements. These elements are then rendered to the React DOM
 
 
 ```
